@@ -52,6 +52,7 @@ public class Kinematic : MonoBehaviour
             angularVelocity += steering.angular * Time.deltaTime;
 
         }
+        /* commented out after turn in - non-relevant code for assignment was throwing errors
         if (align)
         {
             Align myAlign = new Align();
@@ -74,5 +75,7 @@ public class Kinematic : MonoBehaviour
             angularVelocity += steering.angular * Time.deltaTime;
             Destroy(target);
         }
+        */
     }
+
 }

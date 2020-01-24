@@ -127,7 +127,7 @@ public class Align
         return result;
     }
 }
-
+/*
 public class LookWhereGoing: Align {
     public SteeringOutput GetSteering()
     {
@@ -161,3 +161,4 @@ public class Face: Align
 
     }
 }
+*/
